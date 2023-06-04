@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #CBF7E6;
+}
+
+a {
+    font-size: 20px;
+    color: #72A39D;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+    color: #23575a;
+}
+
+.navbar {
+    position: sticky;
+    top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.navabr-items {
+    display: flex;
+    gap: 1em;
+}
+
+.heading {
+    display: flex;
+    padding-bottom: 2em;
+    font-size: 40px;
+    font-family: 'Sacramento', cursive;
+}
+
+.image {
+    display: flex;
+    float: left;
+    width: 20%;
+    border-radius: 100%;
+}
+
+.text {
+    display: flex;
+    color: #72A39D;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.top-container {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #CBF7E6;
+}
+
+#main-heading {
+    color: #23575a;
+    font-size: 56px;
+    font-family: 'Sacramento', cursive;
+}
+
+#sub-heading {
+    color: #72A39D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-image {
+    width: 100%;
+    max-width: 110%;
+}
+
+#bio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+    padding-bottom: 7em;
+    color: #72A39D;
+    background-color:#3B6A6B;
+}
+
+.middle-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    gap: 3em;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+    padding-bottom: 7em;
+    color: #72A39D;
+    background-color: #CBF7E6;
+}
+
+.bottom-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 1em;
+    gap: 3em;   
+}
+
+.cloud {
+    display: flex;
+    justify-content: flex-end;
+    width: 20%;
+}
+
+.grid {
+    width: auto;
+    display: grid;
+    grid-template-columns: 10em 10em;
+    grid-template-rows: repeat(5,auto);
+    padding-top: 1em;
+}
+
+.grid-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5em;
+    padding-bottom: 7em;
+    color: #72A39D;
+    background-color:#3B6A6B;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 2em;
+}
