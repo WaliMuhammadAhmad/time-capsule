@@ -52,11 +52,6 @@ body {
     padding: 1.2em 2em;
 }
 
-.navabr-items {
-    display: flex;
-    gap: 1em;
-}
-
 .top-container {
     height: 100vh;
     display: flex;
