@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 body {
@@ -60,7 +60,6 @@ a:hover {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #CBF7E6;
 }
 
 #main-heading {
@@ -81,13 +80,15 @@ a:hover {
 
 #bio {
     display: flex;
+    height: 100vh;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 5em;
     padding-bottom: 7em;
     color: #72A39D;
-    background-color:#3B6A6B;
+    background-color: #3B6A6B;
+    /* flex-wrap: wrap; */
 }
 
 .middle-container {
@@ -99,6 +100,7 @@ a:hover {
 }
 
 #skills {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -114,7 +116,7 @@ a:hover {
     justify-content: center;
     align-items: center;
     padding-bottom: 1em;
-    gap: 3em;   
+    gap: 3em;
 }
 
 .cloud {
@@ -127,7 +129,7 @@ a:hover {
     width: auto;
     display: grid;
     grid-template-columns: 10em 10em;
-    grid-template-rows: repeat(5,auto);
+    grid-template-rows: repeat(5, auto);
     padding-top: 1em;
 }
 
@@ -137,6 +139,7 @@ a:hover {
 }
 
 #contact {
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -144,11 +147,23 @@ a:hover {
     padding: 5em;
     padding-bottom: 7em;
     color: #72A39D;
-    background-color:#3B6A6B;
+    background-color: #3B6A6B;
 }
 
 .contact {
     display: flex;
     justify-content: space-evenly;
     gap: 2em;
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: 22px;
+    }
+    #main-heading {
+        font-size: 28px;
+    }
+    .text {
+        font-size: 12px;
+    }
 }
