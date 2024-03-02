@@ -13,13 +13,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&family=Sacramento&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sriracha&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link rel="icon" href="img/icon.png">
-    
+
     <!-- CSS -->
     <link href="./style.css" rel="stylesheet">
 
@@ -29,11 +31,11 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#main-heading">Portfolio</a>
+            <a class="underline" href="#main-heading">Portfolio</a>
             <div class="navabr-items">
-                <a href="#bio">Bio</a>
-                <a href="#skills">Skills</a>
-                <a href="#contact">Contact</a>
+                <a class="underline" href="#bio">Bio</a>
+                <a class="underline" href="#skills">Skills</a>
+                <a class="underline" href="#contact">Contact</a>
             </div>
         </nav>
 
@@ -49,81 +51,53 @@
     <div id="bio">
         <h2 class="heading">Bio</h2>
         <div class="middle-container">
-            <img class="image" src="img/profile.jpg" alt="Wali Muhammad Profile Photo">
+            <div class="nrg">
+                <img class="nrg" src="img/profile.jpg" alt="Wali Muhammad Profile Photo">
+            </div>
             <p class="text">
-                Hey there, I'm Wali Muhammad, 19 and currently pursuing a BSCS degree in Software Engineering at the
-                University of Engineering and Technology. I've had the opportunity to taste a wide range of well-known
-                skills and technologies. But what truly captivates me right now is the fascinating world of Artificial
+                Hey there, I'm Wali Muhammad, 19 and currently doing Software Engineering from
+                University of Engineering and Technology Lahore, New Campus. I've had the opportunity to taste a wide
+                range of well-known
+                technologies and grind some skills. But what truly captivates me right now is the fascinating world of
+                Artificial
                 Intelligence. When I'm not busy in doing tech that's the time when I'm like "really-busy", playing
-                AAA games on my PC and love to listen to EDMs. <br>
-                So, that's a glimpse into who
-                I am - an ambitious student, an avid gamer, and a lover of hardstyle EDM.
+                Tripple 'A' titles on my PC and love to listen to EDMs. <br>
+                <br>
+                So, that's a glimpse into who I am - an ambitious student, an avid gamer, and a lover of Hardstyle
+                Music.
             </p>
         </div>
     </div>
 
     <div id="skills">
         <h2 class="heading">Skills</h2>
-        <div class="bottom-container">
+        <div class="middle-container">
             <img class="image" style="border-radius: 0;" src="img/airballoon.png">
             <div class="grid-container">
                 <p class="text">
                     I've developed a range of skills and gained experience in different technologies. Now, I am on
-                    voyage of
-                    a journey of Machine Learning and Deep Learning, where I want to reach the destiny of AI.
+                    voyage of a journey of Machine Learning and Deep Learning, where I want to reach the destiny of R&D.
                 </p>
-
                 <div class="text grid">
                     <!--Skill#1-->
-                    <li>C++</li>
-                    <div>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                    </div>
+                    <label for="skill">HTML & CSS</label>
+                    <progress id="skill" value="70" max="100"></progress>
                     <!--Skill#2-->
-                    <li>HTML & CSS</li>
-                    <div>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                    </div>
+                    <label for="skill">JavaScript</label>
+                    <progress id="skill" value="60" max="100"></progress>
                     <!--Skill#3-->
-                    <li>Bootstrap</li>
-                    <div>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                    </div>
+                    <label for="skill">React.js</label>
+                    <progress id="skill" value="40" max="100"></progress>
                     <!--Skill#4-->
-                    <li>Maven</li>
-                    <div>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                    </div>
+                    <label for="skill">C#</label>
+                    <progress id="skill" value="60" max="100"></progress>
                     <!--Skill#5-->
-                    <li>UI/UX</li>
-                    <div>
-                        <i class="fas fa-star fa-2xs"></i>
-                        <i class="fas fa-star fa-2xs"></i>
-                    </div>
-                    <!--Skill#6-->
-                    <li>React.js</li>
-                    <div>
-                        <i class="fas fa-star fa-2xs"></i>
-                    </div>
-                    <!--Skill#6-->
-                    <li>DL & NLP</li>
-                    <div>
-                        I've just Started
-                    </div>
+                    <label htmlFor="skill">ML & DL</label>
+                    <progress id="skill" value="50" max="100"></progres>
+                        <!--Skill#6-->
+                        <label for="skill">Data Annotation</label>
+                        <progress id="skill" value="30" max="100"></progress>
                 </div>
-
             </div>
         </div>
     </div>
@@ -131,20 +105,39 @@
     <div id="contact">
         <h2 class="heading">Stay in touch!</h2>
         <div class="middle-container">
-            <img class="image" src="img/cloud.png" alt="Cloud connection">
+            <img class="image" src="img/cloud.png" alt="Connection">
             <p class="text">
-                Feel free to get in touch with me using the contact information provided below. Whether you have a
+                Feel free to reach me using the contact information provided below. Whether you have a
                 new idea in mind, an exciting opportunity to discuss, or if you wanted to talk about games or songs
-                I'd love to do, or simply want to connect, just go ahead. Looking forward to seeing you soon!
+                I'd love to do, just go ahead. I'm always open to new connections and opportunities!
             </p>
         </div>
         <div class="contact">
-            <a href="mailto:wali.muhammad.ahmad@gmail.com" target="_blank"><img src="img/email.png" alt="Wali Muhammad Email"></a>
-            <a href="https://github.com/WaliMuhammadAhmad" target="_blank"><img src="img/github.png" alt="Wali Muhammad Github"></a>
-            <a href="https://www.linkedin.com/in/wali-muhammad-ahmad/" target="_blank"><img src="img/linkedin.png" alt="Wali Muhammad Linkedin"></a>
-            <a href="https://www.instagram.com/itx.wali_m/" target="_blank"><img src="img/instagram.png" alt="Wali Muhammad Instagram"></a>
-            <a href="https://www.facebook.com/wali.muhammad.ahmad01" target="_blank"><img src="img/facebook.png" alt="Wali Muhammad Facebook"></a>
+            <ul>
+                <li>
+                    <a href="https://github.com/WaliMuhammadAhmad" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/wali-muhammad-ahmad/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/itx.wali_m/" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/wali.muhammad.ahmad01" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
+
 </html>
