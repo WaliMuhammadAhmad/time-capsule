@@ -36,7 +36,6 @@ body {
 
 .underline:hover::after {
     transform: scaleX(1);
-    /*Show the underline*/
 }
 
 .logo {
@@ -80,7 +79,7 @@ body {
 
 .bg-image {
     width: 60%;
-    min-width: 68vh;
+    min-width: 50vh;
 }
 
 .heading {
